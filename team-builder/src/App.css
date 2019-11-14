@@ -1,0 +1,56 @@
+.App {
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+.App h1 {
+  font-family: "Literata", serif;
+}
+.form-container {
+  width: 600px;
+}
+form {
+  font-family: "Vidaloka", serif;
+  font-size: 2rem;
+}
+input {
+  border: 1px solid black;
+  width: 75%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-family: "Delius";
+  font-size: 1.3rem;
+}
+.names {
+  width: 35%;
+}
+.names.first {
+  margin-right: 1.9%;
+}
+
+button {
+  border: 1px solid black;
+  width: 80%;
+  padding: 10px;
+  font-family: "Delius";
+  font-size: 1.3rem;
+}
+.team-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card {
+  font-family: "Vidaloka";
+  font-size: 1.06rem;
+  border: 1px solid black;
+  width: 25%;
+  height: 15%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+}
+h3 {
+  font-family: "Literata";
+  border-bottom: 1px solid #c25;
+}
