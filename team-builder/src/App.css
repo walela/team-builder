@@ -1,4 +1,29 @@
 .App {
+  width: 960px;
+  margin: 0 auto;
   text-align: center;
 }
-
+.App h1 {
+  font-family: "Literata", serif;
+}
+.form-container {
+  width: 600px;
+}
+form {
+  font-family: "Vidaloka", serif;
+  font-size: 2rem;
+}
+input {
+  border: 1px solid black;
+  width: 75%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-family: "Delius";
+  font-size: 1.3rem;
+}
+.names {
+  width: 35%;
+}
+.names.first {
+  margin-right: 1.9%;
+}
