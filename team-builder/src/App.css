@@ -28,3 +28,11 @@ input {
 .names.first {
   margin-right: 1.9%;
 }
+
+button {
+  border: 1px solid black;
+  width: 80%;
+  padding: 10px;
+  font-family: "Delius";
+  font-size: 1.3rem;
+}

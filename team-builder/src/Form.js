@@ -7,13 +7,20 @@ function Form(props) {
       <form>
         <fieldset>
           <legend>Add a Team Member</legend>
-          <input type="email" name="email" placeholder="Email Adress" value={email}></input>
+          <input
+            type="email"
+            name="email"
+            placeholder="Email Adress"
+            value={email}
+            onChange={props.handleChange}
+          ></input>
           <input
             type="text"
             className="names first"
             name="firstName"
             placeholder="First Name"
             value={firstName}
+            onChange={props.handleChange}
           ></input>
           <input
             type="text"
@@ -21,8 +28,16 @@ function Form(props) {
             name="lastName"
             placeholder="Last Name"
             value={lastName}
+            onChange={props.handleChange}
           ></input>
-          <input type="text" name="role" placeholder="Role" value={role}></input>
+          <input
+            type="text"
+            name="role"
+            placeholder="Role"
+            value={role}
+            onChange={props.handleChange}
+          ></input>
+          <button onClick={props.handleSubmit}>Submit</button>
         </fieldset>
       </form>
     </div>
