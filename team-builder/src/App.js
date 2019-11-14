@@ -37,7 +37,7 @@ const initialMemberForm = {
 };
 
 function Member(props) {
-  const { firstName, lastName, email, role, key } = props;
+  const { firstName, lastName, email, role } = props;
   return (
     <div className="card">
       <h3>{`${firstName} ${lastName}`}</h3>
@@ -57,6 +57,7 @@ function App() {
 
   const handleChange = e => {
     setMemberForm({ ...memberForm, [e.target.name]: e.target.value });
+    console.log(memberForm);
   };
 
   const handleSubmit = e => {
@@ -76,6 +77,7 @@ function App() {
               lastName={member.lastName}
               email={member.email}
               role={member.role}
+              key={member.email}
             />
           );
         })}

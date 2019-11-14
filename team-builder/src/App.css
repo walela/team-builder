@@ -8,7 +8,6 @@
 }
 .form-container {
   width: 600px;
-  margin: 10%;
 }
 form {
   font-family: "Vidaloka", serif;
@@ -43,14 +42,15 @@ button {
 }
 .card {
   font-family: "Vidaloka";
+  font-size: 1.06rem;
   border: 1px solid black;
   width: 25%;
-  height: 120px;
+  height: 15%;
   margin-right: 10px;
   margin-bottom: 10px;
   padding: 5px 10px;
 }
 h3 {
   font-family: "Literata";
-  border-bottom: 1px solid brown;
+  border-bottom: 1px solid #c25;
 }
