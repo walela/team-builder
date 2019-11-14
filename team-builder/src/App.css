@@ -36,3 +36,21 @@ button {
   font-family: "Delius";
   font-size: 1.3rem;
 }
+.team-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card {
+  font-family: "Vidaloka";
+  border: 1px solid black;
+  width: 25%;
+  height: 120px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+}
+h3 {
+  font-family: "Literata";
+  border-bottom: 1px solid brown;
+}
