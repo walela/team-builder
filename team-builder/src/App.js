@@ -62,8 +62,15 @@ function App() {
 
   const handleSubmit = e => {
     e.preventDefault();
-    setTeam(team.concat(memberForm));
-    setMemberForm(initialMemberForm);
+    Object.entries(memberForm).forEach(([key, value]) => {
+      if (value === "") {
+        console.error("Invalid input. Try again.");
+        return;
+      } else {
+        setTeam(team.concat(memberForm));
+        setMemberForm(initialMemberForm);
+      }
+    });
   };
 
   return (

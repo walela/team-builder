@@ -13,6 +13,7 @@ function Form(props) {
             placeholder="Email Adress"
             value={email}
             onChange={props.handleChange}
+            required
           ></input>
           <input
             type="text"
@@ -21,6 +22,7 @@ function Form(props) {
             placeholder="First Name"
             value={firstName}
             onChange={props.handleChange}
+            required
           ></input>
           <input
             type="text"
@@ -29,6 +31,7 @@ function Form(props) {
             placeholder="Last Name"
             value={lastName}
             onChange={props.handleChange}
+            required
           ></input>
           <input
             type="text"
@@ -36,6 +39,7 @@ function Form(props) {
             placeholder="Role"
             value={role}
             onChange={props.handleChange}
+            required
           ></input>
           <button onClick={props.handleSubmit}>Submit</button>
         </fieldset>
